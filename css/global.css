@@ -1,0 +1,84 @@
+
+header {
+  background:black;
+  color: white;
+  text-align: center;
+  padding: 50px
+}
+
+body {
+  /*background-color: white;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.white-text {
+  color: white;
+  text-align: center;
+}
+
+.black-text {
+  color: black;
+}
+
+.big-font {
+  font-size: 50px;
+}
+
+main {
+  background-attachment: fixed;
+}
+
+#footer {
+  color: white;
+  padding: 40px
+
+}
+.normal-font {
+  font-size: 14px;
+}
+
+button {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+
+}
+
+button:hover {
+  transform: scale(2); transition: all .3s;
+}
+
+.center {
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.img_index {
+  padding: 30px;
+}
+
+#about_body {
+  background: url(/colts_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main.center {
+    display: block;
+    margin: 20 auto;
+}
+
+.about_img {
+  border-radius: 10px;
+  border-style: inset;
+  box-shadow: 2px 2px 10px white;
+  padding: 0px;
+  margin: 80px;
+}
+
+img.rounded { border-radius: 50%; }
+
+footer {
+  background-color: black;
+}
